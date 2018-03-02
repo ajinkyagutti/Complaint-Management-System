@@ -1,0 +1,322 @@
+
+
+/* Basic headers and footers*/
+
+/*HEADER STARTS*/
+#header
+{
+	top:0px;
+	left:0px;
+	margin:0;
+	padding:0px;
+	width:100%;
+	height:auto;
+	background-color:#565657;
+	color:white;
+	font-size:18px;
+	position:fixed;
+	z-index: 1;
+}
+
+#header li
+{
+	margin:0;
+	padding:8px;
+	display:inline;
+}
+
+#header .mainoptions
+{
+	position:relative;
+	left:45%;
+}
+
+#header a
+{
+	margin:0;
+	padding: 8px 24px;
+	font-size:18px;
+	color:white;
+	border:2px solid #13A94A;
+	border-radius:8px;
+}
+
+#header a:link 
+{
+}
+
+/* visited link */
+#header a:visited 
+{
+}
+
+/* mouse over link */
+#header a:hover
+{
+    background-color: #13A94A;
+}
+
+/* selected link */
+#header a:active 
+{
+    background-color: #13A94A;
+}
+
+/* HEADER ENDS */
+
+/* FOOTER STARTS */
+
+#footer
+{
+	background-color:#DAD7D7;
+	position: fixed;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	color: #555555;
+	padding: 12px;
+	text-align:center;
+} 
+
+/* FOOTER ENDS */ 
+
+/* LOGIN FORM STARTS */
+
+#loginform
+{
+	margin: 100px auto;
+	border:1px solid #DAD7D7;
+	width:35%;
+	min-height:350px;
+	background:#565657;
+	border-radius:20px;
+}
+
+#loginform h1
+{
+	text-align:center;
+	color:white;
+}
+
+#loginform input
+{
+	position:relative;
+	left:12%;
+	width:75%;
+}
+
+#loginform .username, .password
+{
+	padding:12px;
+	margin:12px;
+	font-size:20px;
+	border:1px solid #A6A2A2;
+	border-radius:5px;
+}
+
+#loginform .submit
+{
+	left: 35%;
+	width:30%;
+	margin:12px;
+	padding:12px;
+	border: 1px solid #A6A2A2;
+	border-radius:5px;
+	background-color:#54D75C;
+}
+
+/* LOGIN FORM ENDS */
+
+/* REGISTERATION FORM STARTS */
+
+#regform
+{
+	margin: 100px auto;
+	border:1px solid #DAD7D7;
+	width:50%;
+	min-height:650px;
+	background:#565657;
+	border-radius:20px;
+}
+
+#regform h1
+{
+	text-align:center;
+	color:white;
+	margin:22px;
+}
+
+#regform .firstname, .lastname, .email, .password, .conpassword
+{
+	padding:12px;
+	margin:12px;
+	border:1px solid #A6A2A2;
+	border-radius:5px;
+}
+
+#regform .firstname, .lastname
+{
+	font-size:20px;
+	position:relative;
+	width:37%;
+	margin:18px 3px;
+	left:11%;
+}
+
+#regform .email, .password, .conpassword
+{
+	font-size:20px;
+	position:relative;
+	left:10%;
+	width:75%;
+}
+
+#regform .day, .month, .year
+{
+	font-size:20px;
+	position:relative;
+	width:23%;
+	margin:18px 3px;
+	left:11%;
+	padding:8px;
+	border-radius:5px;
+}
+
+#regform .gender
+{
+	font-size:22px;
+	position:relative;
+	width:37%;
+	margin:10px;
+	left:10%;
+}
+
+#regform .submit
+{
+	position:relative;
+	left: 60%;
+	width:70%;
+	margin:12px;
+	padding:12px;
+	border: 1px solid #A6A2A2;
+	border-radius:5px;
+	background-color:#54D75C;
+}
+
+/* REGISTERATION FORM ENDS */
+
+/* ADMIN COMPLAINT VIEWS STARTS */
+
+#admincomplainttable
+{
+	margin: 100px auto;
+	border:1px solid white;
+	border-collapse:collapse;
+	border-radius: 10px;
+}
+
+.thcell
+{
+background-color: #6C6C6C;
+}
+
+tr:nth-child(even) {	background: #CCC    }
+tr:nth-child(odd) {		background: #BBB	}
+
+.thcell, .cell
+{
+	border:1px solid black	;
+	color:white;
+	padding:10px;
+}
+
+/* ADMIN COMPLAINT VIEWS ENDS */
+
+/* COMPLAINT FORM STARTS */
+
+.loginoptions
+{
+	margin:0;
+	padding:8px;
+	display:inline;
+	position:relative;
+	left:35%;
+}
+
+
+#compform
+{
+	margin: 100px auto;
+	border:1px solid #DAD7D7;
+	width:50%;
+	min-height:650px;
+	background:#565657;
+	border-radius:20px;
+}
+
+#compform h1
+{
+	text-align:center;
+	color:white;
+	margin:22px;
+}
+
+#compform .firstname, .lastname, .email
+{
+	padding:12px;
+	margin:12px;
+	border:1px solid #A6A2A2;
+	border-radius:5px;
+}
+
+#compform .firstname, .lastname
+{
+	font-size:20px;
+	position:relative;
+	width:37%;
+	margin:18px 3px;
+	left:11%;
+}
+
+#compform .email
+{
+	font-size:20px;
+	position:relative;
+	left:10%;
+	width:75%;
+}
+
+#compform .device
+{
+	font-size:20px;
+	position:relative;
+	width:37%;
+	margin:18px 3px;
+	left:11%;
+	padding:8px;
+	border-radius:5px;
+}
+
+#compform .warranty
+{
+	font-size:22px;
+	color:white;
+	position:relative;
+	width:100%;
+	margin:10px;
+	left:10%;
+}
+
+#compform .submit
+{
+	position:relative;
+	left: 15%;
+	width:70%;
+	margin:12px auto;
+	padding:12px;
+	border: 1px solid #A6A2A2;
+	border-radius:5px;
+	background-color:#54D75C;
+}
+
+/* COMPLAINT FORM ENDS */
